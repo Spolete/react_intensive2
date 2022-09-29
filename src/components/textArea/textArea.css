@@ -1,0 +1,34 @@
+.text-area {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 0 0;
+    width: 100%;
+}
+
+.text-area::placeholder {
+    color: transparent;
+}
+
+.text {
+    font-size: 16px;
+    width: 600px;
+    resize: none;
+    border: 0;
+    outline: none;
+    box-shadow: 0 1px 4px 1px rgb(36 36 36 / 7%);
+    border-radius: 10px;
+}
+
+.text:focus {
+    border: 2px solid rgb(51 144 236);
+    border-radius: 10px;
+}
+
+.text-label {
+    position: absolute;
+    top: -10px;
+    display: block;
+    transition: 0.2s;
+    color: #9b9b9b;
+}
